@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Notes v2.0</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="header">
+    <h2>Tab Notes</h2>
+
+  </div>
+  
+  <div class="toolbar">
+  <button class="format-btn" data-cmd="bold" title="Bold (Ctrl+B)"><b>B</b></button>
+  <button class="format-btn" data-cmd="italic" title="Italic (Ctrl+I)"><i>I</i></button>
+  <button class="format-btn" data-cmd="underline" title="Underline (Ctrl+U)"><u>U</u></button>
+<button class="format-btn" data-cmd="insertUnorderedList" title="Bullet List (Ctrl+Shift+L)">&bull; List</button>
+</div>
+
+
+  <div id="note" contenteditable="true" class="note-area" placeholder="Write your note..."></div>
+  <button id="backupBtn">Backup Notes</button>
+  <input type="text" id="searchInput" placeholder="Search your notes..." />
+  <ul id="searchResults" class="search-list"></ul>
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+
+</body>
+<button id="themeToggle" title="Toggle Dark/Light Theme (T)">&#127769;</button>  <!-- 🌙 -->
+
+</html>
