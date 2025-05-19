@@ -1,0 +1,15 @@
+**Tab Notes – Privacy Policy**
+
+Tab Notes does not collect, store, transmit, or share any user data.
+
+All notes you create using the extension are stored locally in your browser via Chrome's `storage.local` API. No personal information, activity, or web content is ever sent to a server or third party.
+
+Permissions used:
+- `tabs`: Used to identify and associate notes with specific browser tabs.
+- `storage`: Used to store your notes locally.
+- `host_permissions`: Required to inject notes into open webpages.
+- `scripting`: Used to dynamically load saved notes into a newly opened tab.
+
+This extension works fully offline and does not use analytics, cookies, trackers, or account login.
+
+By using Tab Notes, your data remains 100% private and on your device.
